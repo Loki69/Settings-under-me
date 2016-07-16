@@ -42,5 +42,5 @@ for key, value in downloade.items():
     if value.get('apply') != None:
         file = absolute_path(value['apply']['file'])
         with open(file, 'a') as apply:
-            text = str(value['apply']['text'])
+            text = str(value['apply']['text'])+'\n'
             apply.write(text)
