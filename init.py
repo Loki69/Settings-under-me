@@ -2,7 +2,7 @@ from urllib import request
 import os
 
 downloade = {
-    'gitconfig':{'url':'https://raw.githubusercontent.com/Loki69/Settings-under-me/master/git/.gitconfig',
+    'gitconfig':{'url':'https://raw.githubusercontent.com/Loki69/Settings-under-me/master/git/gitconfig',
                 'save':'~/.gitconfig'
                 },
     'terminal':{'url':'https://raw.githubusercontent.com/Loki69/Settings-under-me/master/terminal/git-prompt.sh',
