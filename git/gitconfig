@@ -2,5 +2,5 @@
 	cd = checkout
 	ci = commit
 	st = status
-	br = branch
+	dir = branch
 	ls = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
